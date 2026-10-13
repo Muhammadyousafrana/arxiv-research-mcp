@@ -1,9 +1,24 @@
 [![Deploy to GitHub Pages](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/main.yml/badge.svg)](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/main.yml)
-[![Copilot coding agent](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-swe-agent/copilot/badge.svg)](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-swe-agent/copilot)
-[![Copilot code review](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer/badge.svg)](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer)
+[![Copilot coding agent](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-swe-agent/copilot/badge.svg)](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-swe-agent)
+[![Copilot code review](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer/badge.svg)](https://github.com/Muhammadyousafrana/mcp-arxiv-research-server/actions/workflows/copilot-pull-request-reviewer)
+
 # mcp-arxiv-research-server
 
 A custom MCP (Model Context Protocol) server that searches arXiv, stores research papers by topic, and exposes tools and resources for structured academic discovery and analysis.
+
+## 🏷️ Recommended Repository Name
+
+If you want a cleaner, more discoverable public-facing name, the best option is:
+
+**arxiv-research-mcp**
+
+Why this works:
+- "arxiv" makes the domain obvious immediately
+- "research" reflects the project purpose
+- "mcp" signals the protocol integration clearly
+- It's shorter, easier to remember, and reads naturally in search results
+
+This repository can keep its current GitHub slug for continuity, but the public-facing project name should ideally be `arxiv-research-mcp`.
 
 ## 📋 Features
 
@@ -205,6 +220,8 @@ The project has two main dependencies defined in `pyproject.toml`:
 [project]
 name = "mcp-arxiv-research-server"
 version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "arxiv>=2.4.0",
@@ -277,12 +294,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 4. **Dependency Conflicts**
    - Delete `venv/` and reinstall:
-     ```bash
-     rm -rf venv
-     python -m venv venv
-     source venv/bin/activate
-     pip install -r requirements.txt
-     ```
+      ```bash
+      rm -rf venv
+      python -m venv venv
+      source venv/bin/activate
+      pip install -r requirements.txt
+      ```
 
 ## 📊 Development
 

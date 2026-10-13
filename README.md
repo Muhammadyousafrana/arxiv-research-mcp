@@ -6,20 +6,6 @@
 
 A custom MCP (Model Context Protocol) server that searches arXiv, stores research papers by topic, and exposes tools and resources for structured academic discovery and analysis.
 
-## 🏷️ Recommended Repository Name
-
-If you want a cleaner, more discoverable public-facing name, the best option is:
-
-**arxiv-research-mcp**
-
-Why this works:
-- "arxiv" makes the domain obvious immediately
-- "research" reflects the project purpose
-- "mcp" signals the protocol integration clearly
-- It's shorter, easier to remember, and reads naturally in search results
-
-This repository can keep its current GitHub slug for continuity, but the public-facing project name should ideally be `arxiv-research-mcp`.
-
 ## 📋 Features
 
 - **🔍 Search arXiv Papers**: Search for academic papers on arXiv based on topics
